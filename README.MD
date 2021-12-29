@@ -19,3 +19,6 @@
 
     )
 ```
+
+Ref: 
+https://reactivex.io/documentation/operators/map.html
