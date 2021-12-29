@@ -4,7 +4,7 @@
 ```js
 
   /*
-   * getInputs()    : InputType   
+   * getInputs()    : InputType[]   
    * inputs$        : String[]
    * 
    */
