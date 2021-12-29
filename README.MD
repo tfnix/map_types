@@ -6,6 +6,11 @@ I know<br>
 Let alone to rust alone<br>
 Yeah, you're making me<br>
 I had to run, the damage is done<br>
+Give it up, there, give it up, there's<br>
+Nothing left, so take the rest<br>
+Yeah, you're draining me<br>
+I set it light, it burns so bright<br>
+Stab it out, hey, stab it out, hey<br>
 ...<br>
 "<br>
 (The Distillers/Beat Your Heart Out)
