@@ -20,17 +20,16 @@ Stab it out, hey, stab it out, hey<br>
 
 ```js
 
-  /*
-   * getInputs()    : InputType[]   
-   * inputs$        : String[]
-   * 
-   */
+    /*
+     * getInputs()    : InputType[]   
+     * inputs$        : String[]
+     * 
+     */
 
-
-  
+    // Pretty! Modifica o tipo de retorno de getInputs()
     this.inputs$ = this.restService.getInputs().pipe(
       map( datas => {
-        // Pretty! Modifica o tipo de retorno de getInputs()
+        
         return datas.map(object => object.title)
 
         
