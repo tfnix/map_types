@@ -26,6 +26,8 @@ Stab it out, hey, stab it out, hey<br>
    * 
    */
 
+
+  
     this.inputs$ = this.restService.getInputs().pipe(
       map( datas => {
         // Pretty! Modifica o tipo de retorno de getInputs()
@@ -35,6 +37,15 @@ Stab it out, hey, stab it out, hey<br>
       })
 
     )
+  
+    // Zipa duas streams. Pretty! Sem Observables(Rx) é muito mais extenso essa
+    this.group$= zip (this.members$, this.premembers$.pipe(map(input => {
+
+            //return input
+        })))
+          .pipe(        
+            map(res =>  [...res[0], ...res[1]] ) 
+          )
 
 
 
