@@ -38,20 +38,5 @@ Stab it out, hey, stab it out, hey<br>
 
 
 
-/* 
- * Juntando duas streams 
- * 
- * 
- */
-this.group$= zip (this.members$, this.premembers$.pipe(map(input => {
-        
-        // return input
-    })))
-      .pipe(        
-        map(res =>  [...res[0], ...res[1]] )                 
-      )
-```
-
-
 Ref: 
 https://reactivex.io/documentation/operators/map.html
